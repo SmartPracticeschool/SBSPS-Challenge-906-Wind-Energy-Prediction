@@ -11,6 +11,7 @@ labels = []
 for row in data:
     row = row.split(',')
     del row[0]
+    del row[-1]
 
     out = []
     for i in row:
